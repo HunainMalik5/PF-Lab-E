@@ -8,10 +8,10 @@ using namespace std;
         for (int i = 1; i <= n; ++i) {
 
             for (int j = i; j < n; j++) {
-                cout << " ";
+                cout << "  ";
             }
-            for (int k=1 ;k<=(2 * i - 1); k++) {
-                cout << "*";
+            for (int k=1 ;k< i; k++) {
+                cout << "* ";
             }
             cout << endl;
         } return 0;
